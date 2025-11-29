@@ -6,50 +6,53 @@
     <title>More Events</title>
 </head>
 <body>
-    <button id="btn-mouse">mouse btn</button>
+    <button id="btn-mouse">mouse mic</button>
     <input id="user-name" type="text" placeholder="Your Name">
     <input id="user-email" type="email" placeholder="Your Email">
+
 
     <script>
         // document.getElementById('btn-mouse')
         // .addEventListener('mouseout', function(){
-        //     console.log('hello how are you man')
+        //     console.log('event triggered')
+        // })
+        // document.getElementById('btn-mouse')
+        // .addEventListener('mouseenter', function(){
+        //     console.log('event triggered')
+        // })
+        // document.getElementById('btn-mouse')
+        // .addEventListener('mousemove', function(){
+        //     console.log('event triggered')
         // })
 
         // document.getElementById('user-name')
-        // .addEventListener('focus' , function(){
+        // .addEventListener('focus', function(){
         //     console.log('user about to write name')
         // })
 
-
-
         // document.getElementById('user-email')
-        // .addEventListener('focus', function(){
-        //     console.log('user about to write  name')
+        // .addEventListener('focus',function(){
+        //     console.log('user about to write email')
         // })
         // document.getElementById('user-name')
         // .addEventListener('blur', function(){
         //     console.log('user done with name')
         // })
 
-
         // document.getElementById('user-email')
-        // .addEventListener('blur', function(){
+        // .addEventListener('blur',function(){
         //     console.log('user done with email')
         // })
 
-
-
-        // document.getElementById('user-name')
+        //     document.getElementById('user-name')
         // .addEventListener('keydown', function(event){
-        //     console.log('typing',event.target.value)
+        //     console.log( event.target.value)
         // })
-        document.getElementById('user-name')
+            document.getElementById('user-name')
         .addEventListener('keyup', function(event){
-            console.log('typing',event.target.value)
+            console.log( event.target.value)
         })
 
-        
     </script>
 </body>
 </html>
